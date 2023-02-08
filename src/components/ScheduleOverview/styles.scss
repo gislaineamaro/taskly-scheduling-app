@@ -1,0 +1,33 @@
+@import '../../global/colors';
+
+.schedulling-overview-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  .schedule-healine {
+    .title-schedule-headline,
+    .text-actual-day {
+      font-size: 2.5rem;
+      line-height: 3.125rem;
+      font-weight: 500;
+    }
+  
+    .title-schedule-headline {
+      color: #000;
+      margin: 0;
+    }
+  
+    .text-actual-day {
+      color: $primary-color;
+    }
+
+    .wrapper-info-actual-day {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}

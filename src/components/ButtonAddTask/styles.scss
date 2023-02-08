@@ -1,0 +1,10 @@
+@import '../../global/colors.scss';
+
+.button-add-new-task {
+  width: 3.375rem;
+  height: 3.5625rem;
+  border-radius: 67% 28% 59% 41% / 61% 53% 47% 39%;
+  border: none;
+  background-color: $primary-color;
+  box-shadow: 6px 12px 23px rgba(248, 213, 126, 0.244619);
+}

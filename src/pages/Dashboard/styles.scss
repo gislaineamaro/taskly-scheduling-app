@@ -1,4 +1,9 @@
 .dashboard-container {
   display: flex;
   flex-direction: row;
+
+  .schedule-overview-container {
+    width: 40%;
+    margin: 3.75rem;
+  }
 }
