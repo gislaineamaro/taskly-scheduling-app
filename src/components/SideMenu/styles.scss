@@ -1,0 +1,12 @@
+.sidemenu-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1.75rem;
+  background-color: #F6F7FB;
+
+  .taskly-logo-menu {
+    width: 6.25rem;
+    height: 2rem;
+  }
+}
