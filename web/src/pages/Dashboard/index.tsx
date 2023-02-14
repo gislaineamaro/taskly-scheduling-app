@@ -1,6 +1,8 @@
 import React from 'react'
-import ScheduleOverview from '../../components/ScheduleOverview'
-import SideMenu from '../../components/SideMenu'
+import ScheduleOverview from './components/ScheduleOverview'
+import TaskCard from '@/components/TaskCard'
+import SideMenu from './components/SideMenu'
+
 import './styles.scss'
 
 export const Dashboard = () => {
@@ -9,6 +11,7 @@ export const Dashboard = () => {
       <SideMenu/>
       <div className='schedule-overview-container'>
         <ScheduleOverview/>
+        <TaskCard/>
       </div>
     </div>
   )

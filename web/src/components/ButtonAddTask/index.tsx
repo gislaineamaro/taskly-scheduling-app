@@ -1,6 +1,6 @@
 import React from 'react'
 
-import plusIcon from '../../assets/plus-icon.svg'
+import plusIcon from '@/assets/plus-icon.svg'
 import './styles.scss'
 
 export const ButtonAddTask = () => {

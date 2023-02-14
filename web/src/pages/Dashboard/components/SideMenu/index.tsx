@@ -2,7 +2,7 @@ import React from 'react'
 
 import StickyReminders from '../StickyReminders'
 
-import TasklySmallLogo from '../../assets/taskly-small-logo.svg'
+import TasklySmallLogo from '@/assets/taskly-small-logo.svg'
 import './styles.scss'
 
 export const SideMenu = () => {

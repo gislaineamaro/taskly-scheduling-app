@@ -1,8 +1,8 @@
 import React from 'react'
 
-import { ReminderNote } from '../ReminderNote'
+import { ReminderNote } from '@/components/ReminderNote'
 
-import plusIcon from '../../assets/plus-icon.svg'
+import plusIcon from '@/assets/plus-icon.svg'
 import './styles.scss'
 
 export const StickyReminders = () => {

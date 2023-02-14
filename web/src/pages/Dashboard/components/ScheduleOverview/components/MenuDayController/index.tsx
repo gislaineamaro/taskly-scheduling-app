@@ -1,7 +1,7 @@
 import React from 'react'
 
-import chevronLeftIcon from '../../../../assets/chevron-left-24.png'
-import chevronRightIcon from '../../../../assets/chevron-right-24.png'
+import chevronLeftIcon from '@/assets/chevron-left-24.png'
+import chevronRightIcon from '@/assets/chevron-right-24.png'
 import './styles.scss'
 
 export const MenuDayController = () => {

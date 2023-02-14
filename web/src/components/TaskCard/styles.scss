@@ -1,0 +1,40 @@
+@import '@/global/_colors';
+
+.task-card-container {
+  padding: 1rem 1.875rem;
+  border-radius: 8px;
+  background-color: $neutral-white-medium;
+
+  .task-card-header,
+  .task-card-name-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+  }
+
+  .task-emoji-container {
+    width: 2.1875rem;
+    height: 2.1875rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.6875rem;
+    font-size: 0.9375rem;
+    background-color: $neutral-white;
+  }
+
+  .task-card-title {
+    margin-left: 1rem;
+    font-weight: 800;
+    font-size: 1rem;
+    color: $secondary-color;
+  }
+
+  .task-card-time {
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: $secondary-color;
+  }
+}

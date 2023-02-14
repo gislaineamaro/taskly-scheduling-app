@@ -1,6 +1,6 @@
 import React from 'react'
 
-import ButtonAddTask from '../ButtonAddTask'
+import ButtonAddTask from '@/components/ButtonAddTask'
 import MenuDayController from './components/MenuDayController'
 import './styles.scss'
 
