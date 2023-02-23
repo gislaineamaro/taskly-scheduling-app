@@ -11,7 +11,9 @@ export const Dashboard = () => {
       <SideMenu/>
       <div className='schedule-overview-container'>
         <ScheduleOverview/>
-        <TaskCard/>
+        <ul className='tasks-list'>
+          <TaskCard/>
+        </ul>
       </div>
     </div>
   )

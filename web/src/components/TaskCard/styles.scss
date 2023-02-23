@@ -1,5 +1,12 @@
 @import '@/global/_colors';
 
+.task-item-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .task-card-container {
   padding: 1rem 1.875rem;
   border-radius: 8px;
@@ -36,5 +43,13 @@
     font-weight: 500;
     font-size: 0.875rem;
     color: $secondary-color;
+  }
+}
+
+.task-card-done {
+  background-color: $primary-color;
+
+  .task-card-body {
+    display: none;
   }
 }

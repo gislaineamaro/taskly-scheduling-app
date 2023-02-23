@@ -1,0 +1,56 @@
+@import '@/global/_colors';
+
+.timeline-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .checkbox-task-default {
+    width: 18px;
+    height: 18px;
+    // accent-color: #ffffff00;
+    // border: 2px solid red;
+    margin: 1rem 0.75rem;
+  }
+
+  input[type='checkbox']:checked {
+    background-color: transparent;
+  }
+
+  input[type='checkbox']:checked:after {
+    content: '\2714';
+    color: $primary-color;
+    accent-color: #ffffff02;
+  }
+
+  input[type='checkbox']{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    width: 20px !important;
+    height: 20px !important;
+    appearance:none;
+    border-radius:10%;
+    border: 1px solid #D8D8D8;
+    box-shadow: none;
+    font-size: 1em;
+  }
+
+  .start-time, 
+  .end-time {
+    content: ' ';
+    width: 0.625rem;
+    height: 0.125rem;
+    border-radius: 3.125rem;
+  }
+
+  .start-time.done-task, 
+  .end-time.done-task {
+    background-color: $primary-color;
+  }
+
+  .start-time.to-do-task, 
+  .end-time.to-do-task {
+    background-color: #D8D8D8;
+  }
+}
